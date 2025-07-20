@@ -8,7 +8,7 @@ __turbopack_load_page_chunks__("/", [
   "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
   "static/chunks/node_modules_swiper_260c0941._.js",
   "static/chunks/node_modules_24406989._.js",
-  "static/chunks/_7dea6d6e._.css",
+  "static/chunks/_3a654c5f._.css",
   "static/chunks/pages_index_5771e187._.js",
-  "static/chunks/pages_index_293b1027._.js"
+  "static/chunks/pages_index_bd4ff69a._.js"
 ])

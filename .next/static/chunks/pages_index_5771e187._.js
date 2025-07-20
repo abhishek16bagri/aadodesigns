@@ -10,7 +10,7 @@
   "static/chunks/node_modules_react-icons_lib_75a63dfe._.js",
   "static/chunks/node_modules_swiper_260c0941._.js",
   "static/chunks/node_modules_24406989._.js",
-  "static/chunks/_7dea6d6e._.css"
+  "static/chunks/_3a654c5f._.css"
 ],
     source: "entry"
 });

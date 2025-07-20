@@ -178,16 +178,14 @@
   z-index: 10;
 }
 
-:global {
-  .swiper-pagination-bullet {
-    width: 12px !important;
-    height: 12px !important;
-    background: #fff !important;
-  }
+:global(.swiper-pagination-bullet) {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #fff !important;
+}
 
-  .swiper-pagination-bullet-active {
-    background: #0070f3 !important;
-  }
+:global(.swiper-pagination-bullet-active) {
+  background-color: #0070f3 !important;
 }
 
 /* Responsive Design */

@@ -5,7 +5,6 @@ import MainScreenWrapper from '../components/MainScreenWrapper';
 import Navbar from '../components/navbar'
 import HeroSlider from '../components/HeroSlider'
 import MyFooter from '../components/Myfooter'
-import styles from '../styles/global.css';
 export default function Dashboard() {
 
 return (
