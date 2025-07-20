@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/aadodesigns/pages/index.jsx"],"sourcesContent":["import { useRouter } from 'next/router';\r\nimport { useState, useEffect } from 'react';\r\n\r\nexport default function Dashboard() {\r\n\r\nreturn (\r\n<MyDashboard />\r\n  )\r\n}"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS;IAExB,qBACA,qKAAC;;;;;AAED","debugId":null}}]
+}
