@@ -1,6 +1,6 @@
 // components/UserDetailsModal.js
 import { useState } from 'react';
-import { FiUser, FiPhone, FiMail, FiStar } from 'react-icons/fi';
+import { FiUser, FiPhone, FiMail } from 'react-icons/fi';
 
 const UserDetailsModal = ({ isOpen, onSubmit }) => {
   const [formData, setFormData] = useState({
