@@ -30,7 +30,6 @@ const ProductsPage = () => {
   const categories = [
     { id: 'all', name: 'All Products', count: 48 },
     { id: 'restaurant', name: 'Restaurant Furniture', count: 12 },
-    { id: 'cafe', name: 'Cafe Furniture', count: 8 },
     { id: 'bar', name: 'Bar Furniture', count: 6 },
     { id: 'hotel', name: 'Hotel Furniture', count: 10 },
     { id: 'cane', name: 'Cane Furniture', count: 7 },
@@ -50,18 +49,7 @@ const ProductsPage = () => {
       badge: 'Bestseller',
       description: 'Elegant wooden chair perfect for fine dining restaurants'
     },
-    {
-      id: 2,
-      name: 'Modern Cafe Table',
-      category: 'cafe',
-      price: 8500,
-      originalPrice: null,
-      rating: 4.6,
-      reviews: 18,
-      image: '/products/cafe-table-1.jpg',
-      badge: 'New',
-      description: 'Stylish round table ideal for coffee shops and casual dining'
-    },
+
     {
       id: 3,
       name: 'Industrial Bar Stool',

@@ -31,9 +31,7 @@ const ContactPage = () => {
     email: '',
     phone: '',
     company: '',
-    subject: '',
     message: '',
-    inquiryType: 'general'
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -60,9 +58,7 @@ const ContactPage = () => {
         email: '',
         phone: '',
         company: '',
-        subject: '',
         message: '',
-        inquiryType: 'general'
       });
       
       setTimeout(() => setSubmitStatus(''), 5000);
@@ -73,14 +69,14 @@ const ContactPage = () => {
     {
       icon: <FiPhone className="text-2xl" />,
       title: 'Phone',
-      details: ['+91 123456789', '+91 123456789'],
+      details: ['+91 123456789'],
       link: 'tel:+91123456789',
       color: 'blue'
     },
     {
       icon: <FiMail className="text-2xl" />,
       title: 'Email',
-      details: ['info@example.com', 'sales@example.com'],
+      details: ['info@example.com'],
       link: 'mailto:info@example.com',
       color: 'green'
     },
@@ -156,24 +152,7 @@ const ContactPage = () => {
                   </div>
 
                   <form onSubmit={handleSubmit} className="space-y-8">
-                    {/* Inquiry Type */}
-                    <div className="animate-fade-in-up">
-                      <label className="block text-sm font-semibold text-gray-700 mb-3">
-                        What can we help you with? *
-                      </label>
-                      <select
-                        name="inquiryType"
-                        value={formData.inquiryType}
-                        onChange={handleInputChange}
-                        className="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all bg-gray-50 hover:bg-white"
-                      >
-                        <option value="general">General Inquiry</option>
-                        <option value="quote">Request Quote</option>
-                        <option value="bulk">Bulk Order</option>
-                        <option value="custom">Custom Design</option>
-                        <option value="support">Customer Support</option>
-                      </select>
-                    </div>
+                   
 
                     {/* Name and Email Row */}
                     <div className="grid md:grid-cols-2 gap-8 animate-fade-in-up animation-delay-100">
@@ -239,22 +218,6 @@ const ContactPage = () => {
                           placeholder="Your company name"
                         />
                       </div>
-                    </div>
-
-                    {/* Subject */}
-                    <div className="animate-fade-in-up animation-delay-300">
-                      <label className="block text-sm font-semibold text-gray-700 mb-3">
-                        Subject *
-                      </label>
-                      <input
-                        type="text"
-                        name="subject"
-                        value={formData.subject}
-                        onChange={handleInputChange}
-                        required
-                        className="w-full px-5 py-4 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent transition-all bg-gray-50 hover:bg-white"
-                        placeholder="Brief description of your inquiry"
-                      />
                     </div>
 
                     {/* Message */}

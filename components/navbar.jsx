@@ -44,7 +44,6 @@ const Navbar = () => {
       hasDropdown: true,
       dropdownItems: [
         { name: 'Restaurant Furniture', href: '/product/restaurant-furniture', description: 'Tables, chairs, and dining sets' },
-        { name: 'Cafe Furniture', href: '/product/cafe-furniture', description: 'Cozy seating and coffee tables' },
         { name: 'Bar Furniture', href: '/product/bar-furniture', description: 'Bar stools and high tables' },
         { name: 'Hotel Furniture', href: '/product/hotel-furniture', description: 'Luxury hospitality furniture' },
         { name: 'Cane Furniture', href: '/product/cane-furniture', description: 'Natural wicker and rattan' },
@@ -53,6 +52,7 @@ const Navbar = () => {
         { name: 'Residential Furniture', href: '/product/residential-furniture', description: 'Home decor and living' },
       ]
     },
+    {name: 'Blog', href: '/blog'},
     { name: 'Contact Us', href: '/contact' },
     { name: 'About', href: '/about' },
   ];

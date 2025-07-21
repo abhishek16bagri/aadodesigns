@@ -37,7 +37,6 @@ const MyFooter = () => {
             <h4>Products</h4>
             <ul className={styles.columnList}>
               <li><Link href="/restaurant-furniture">Restaurant Furniture</Link></li>
-              <li><Link href="/cafe-furniture">Cafe Furniture</Link></li>
               <li><Link href="/bar-furniture">Bar Furniture</Link></li>
               <li><Link href="/hotel-furniture">Hotel Furniture</Link></li>
               <li><Link href="/cane-furniture">Cane Furniture</Link></li>
