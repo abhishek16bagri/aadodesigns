@@ -2488,7 +2488,7 @@ const UserDetailsModal = ({ isOpen, onSubmit })=>{
     };
     if (!isOpen) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-        className: "fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm z-[9999] flex items-center justify-center p-4",
+        className: "fixed inset-0 bg-opacity-50 backdrop-blur-sm z-[9999] flex items-center justify-center p-4",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
             className: "bg-white rounded-3xl shadow-2xl w-full max-w-md mx-auto transform transition-all duration-300 ease-out scale-100 opacity-100",
             style: {
